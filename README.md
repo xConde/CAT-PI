@@ -1,8 +1,8 @@
 # Cat-PI
+[Design Document](https://docs.google.com/document/d/138jDgZjPj0KQncNpydJaoeyRRc7pCNl4jikPqsy1VSU/edit#heading=h.pnwkvju8cst3)
 
-[Design Document]
-(https://docs.google.com/document/d/138jDgZjPj0KQncNpydJaoeyRRc7pCNl4jikPqsy1VSU/edit#heading=h.pnwkvju8cst3)
-----
+<img src="http://contrast-security-oss.github.io/meow/images/detectivecat.png" width="125" height="125">
+
 ## Group 2
 
 * Sarah Hernandez
@@ -10,7 +10,6 @@
 * Ed Conde
 * William Wright
 * Michael Poznecki
-----
 
 ## Overview
 
