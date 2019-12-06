@@ -104,7 +104,6 @@
     <Compile Include="Assets\Various_Assets\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\Various_Assets\RainMaker\Prefab\RainScript.cs" />
     <Compile Include="Assets\Various_Assets\RainMaker\Prefab\RainScript2D.cs" />
-    <Compile Include="Assets\Various_Assets\Sky\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\Various_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Various_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\Various_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -241,6 +240,15 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler.Editor">
+      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
