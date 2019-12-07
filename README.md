@@ -20,4 +20,4 @@ The deceased in question happens to be the owner of some feline acquaintances. Y
 
 ## Player Character Mechanics
 
-WASD for directional, SPACE for jumping, point & click for interactions with objects and NPCs.
+WASD for directional keys and point & click for interactions with objects and NPCs.
