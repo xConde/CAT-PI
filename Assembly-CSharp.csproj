@@ -119,12 +119,6 @@
     <Compile Include="Assets\Various_Assets\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\Various_Assets\RainMaker\Prefab\RainScript.cs" />
     <Compile Include="Assets\Various_Assets\RainMaker\Prefab\RainScript2D.cs" />
-    <Compile Include="Assets\Various_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\Various_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\Various_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Various_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-    <Compile Include="Assets\Various_Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
-    <Compile Include="Assets\Various_Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\Various_Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Various_Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Various_Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -215,7 +209,6 @@
     <None Include="Assets\Scripts\Menu\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\Scripts\Menu\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\Scripts\Menu\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-    <None Include="Assets\Various_Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Various_Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
     <None Include="Assets\Scripts\Menu\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\Scripts\Menu\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
@@ -242,6 +235,12 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -275,12 +274,6 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.MemoryProfiler">
-      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
     </Reference>
     <Reference Include="Unity.MemoryProfiler.Editor">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>

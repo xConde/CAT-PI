@@ -4107,6 +4107,7 @@ GameObject:
   - component: {fileID: 2366468648222455570}
   - component: {fileID: 443353991672955985}
   - component: {fileID: 7975287050432034500}
+  - component: {fileID: 8660956598091567263}
   m_Layer: 0
   m_Name: Building_D_Door_C_snaps004
   m_TagString: Untagged
@@ -4159,5 +4160,22 @@ MonoBehaviour:
   goHinge: {fileID: 5180576796167455605}
   doorText: {fileID: 0}
   degreesRotate: 90
+  secondsToOpen: 1
+  secondsToClose: 1
+--- !u!114 &8660956598091567263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6832217718547537866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae4b933f08c4cf4f8de7534679ef988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goHinge: {fileID: 3057077248022513191}
+  doorText: {fileID: 0}
+  degreesRotate: -90
   secondsToOpen: 1
   secondsToClose: 1

@@ -123,6 +123,12 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
@@ -155,12 +161,6 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.MemoryProfiler">
-      <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
     </Reference>
     <Reference Include="Unity.MemoryProfiler.Editor">
       <HintPath>C:/Users/Ed/Unity_Projects/3D/CAT PI/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>
