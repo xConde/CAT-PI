@@ -19,6 +19,7 @@ public class Menu : MonoBehaviour {
             fader.alpha = Mathf.MoveTowards(fader.alpha, 1, Time.deltaTime);
             yield return null;
         }
-        SceneManager.LoadScene(toBuildIndex, LoadSceneMode.Single);
+        //SceneManager.LoadScene(toBuildIndex, LoadSceneMode.Single);
+        SceneManager.LoadScene("MainGame");
     }
 }
