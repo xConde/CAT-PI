@@ -22,4 +22,12 @@ public class Menu : MonoBehaviour {
         //SceneManager.LoadScene(toBuildIndex, LoadSceneMode.Single);
         SceneManager.LoadScene("MainGame");
     }
+
+    public void Exit()
+    {
+        //only for when running in editor
+        UnityEditor.EditorApplication.isPlaying = false;
+        
+        Application.Quit();
+    }
 }
