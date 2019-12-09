@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                InteractAudioSFX.playSFX();
+                //InteractAudioSFX.playSFX();
                 DropObject();
             }
             return;
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                InteractAudioSFX.playSFX();
+                //InteractAudioSFX.playSFX();
                 OnClick(hit);
             }
             else
@@ -144,6 +144,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnClick(RaycastHit hit)
     {
+        InteractAudioSFX.playSFX();
         animator.SetTrigger("Grab");
 
         Animator refAnim = hit.collider.GetComponent<ComponentReference>().reference;
