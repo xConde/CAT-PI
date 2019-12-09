@@ -45,7 +45,7 @@ public class Clue : MonoBehaviour
         //if (gameObject.name != null)
         //    return true;
         //transform.parent.gameObject
-        if (GetComponent<Collider>().enabled)
+        if (this.go != null)
             return false;
         this.go = Instantiate(go, transform.parent, false);
         clueLight = this.go.GetComponent<Light>();
