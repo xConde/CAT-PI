@@ -8,6 +8,12 @@ public class Clue : MonoBehaviour
     // Start is called before the first frame update
     GameObject go;
     Light clueLight;
+    AudioSource interactAudio;
+
+    private void Start()
+    {
+        interactAudio = GameObject.Find("interactAudio").GetComponent<AudioSource>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -17,6 +23,7 @@ public class Clue : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Player has entered a clue zone");
+        GetComponent<AudioSource>().Play();
         clueLight.enabled = true;
         //Make the clue more visible
     }
