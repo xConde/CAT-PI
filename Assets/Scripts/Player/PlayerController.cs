@@ -161,8 +161,13 @@ public class PlayerController : MonoBehaviour
         if (hit.collider.CompareTag("Clue"))
         {
             //string foundClue = GetComponent<Clues>().findClue;
-            StartCoroutine(LogText(foundClue, 4, 3));
+            StartCoroutine(LogText(foundClue[points++], 4, 3));
             hit.collider.gameObject.GetComponentInChildren<Clue>().findClue();
+            if (points >= 10)
+            {
+                endingText.text = "You found all the evidence!";
+                StartCoroutine(Fade(1));
+            }
             return;
         }
         Animator refAnim = hit.collider.GetComponent<ComponentReference>().reference;
