@@ -40,6 +40,8 @@ public class Clue : MonoBehaviour
         Debug.Log("Player has found the clue");
         //Do the thing to count this clue as found
         GetComponent<Collider>().enabled = false;
+        transform.parent.tag="Untagged";
+        transform.parent.gameObject.layer=0;
         Destroy(go);
         Destroy(gameObject);
         //coll.enabled = false;
