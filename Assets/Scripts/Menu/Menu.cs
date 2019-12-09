@@ -31,7 +31,7 @@ public class Menu : MonoBehaviour {
     {
         MenuSelectSFX.playSFX();
         //only for when running in editor
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
         
         Application.Quit();
     }
