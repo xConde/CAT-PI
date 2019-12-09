@@ -142,13 +142,25 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private String[] foundClue{
+        "Everyone just walked off with no warning",
+        "They must have left because of HER",
+        "the air keeps getting colder",
+        "Don't go into the fog DONT GO",
+        "The fog seems endless",
+        "I told him not to go",
+        "She's taunting me",
+        "There was a scream in the fog last night",
+        "Supplies are running low",
+        "I'm going into the fog to find him"
+    };
     private void OnClick(RaycastHit hit)
     {
         InteractAudioSFX.playSFX();
         animator.SetTrigger("Grab");
         if (hit.collider.CompareTag("Clue"))
         {
-            string foundClue = GetComponent<Clues>().findClue;
+            //string foundClue = GetComponent<Clues>().findClue;
             StartCoroutine(LogText(foundClue, 4, 3));
             hit.collider.gameObject.GetComponentInChildren<Clue>().findClue();
             return;
