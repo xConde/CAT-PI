@@ -55,6 +55,8 @@ public class Clue : MonoBehaviour
         if (this.go != null)
             return false;
         this.go = Instantiate(go, transform.parent, false);
+        transform.parent.tag = "Clue";
+        transform.parent.gameObject.layer = 11;
         clueLight = this.go.GetComponent<Light>();
         clueLight.enabled = false;
         GetComponent<Collider>().enabled = true;

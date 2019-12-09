@@ -26,15 +26,11 @@ public class Clues : MonoBehaviour
     private List<Clue> _realClues;
     [SerializeField]
     private GameObject clueLight;
-    public string getClue
+    public string findClue
     {
         get
         {
-            return clues[_cluesFound];
-        }
-        set
-        {
-            _cluesFound++;
+            return clues[_cluesFound++];
         }
     }
 

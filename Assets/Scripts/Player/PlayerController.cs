@@ -146,7 +146,13 @@ public class PlayerController : MonoBehaviour
     {
         InteractAudioSFX.playSFX();
         animator.SetTrigger("Grab");
-
+        if (hit.collider.CompareTag("Clue"))
+        {
+            string foundClue = GetComponent<Clues>().findClue;
+            StartCoroutine(LogText(foundClue, 4, 3));
+            hit.collider.gameObject.GetComponentInChildren<Clue>().findClue();
+            return;
+        }
         Animator refAnim = hit.collider.GetComponent<ComponentReference>().reference;
         if (!refAnim.enabled)
             refAnim.enabled = true;
@@ -180,6 +186,7 @@ public class PlayerController : MonoBehaviour
                 return;
             }
         }
+        
     }
 
     private void PickupObject(RaycastHit hit)
