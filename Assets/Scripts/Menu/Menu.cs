@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour {
 
     public int toBuildIndex;
     public CanvasGroup fader;
+    public GameObject helpPanel;
+    public GameObject menuPanel;
 
     public void Load()
     {
@@ -29,5 +32,17 @@ public class Menu : MonoBehaviour {
         UnityEditor.EditorApplication.isPlaying = false;
         
         Application.Quit();
+    }
+
+    public void Help()
+    {
+        menuPanel.SetActive(false);
+        helpPanel.SetActive(true);
+    }
+
+    public void Back()
+    {
+        helpPanel.SetActive(false);
+        menuPanel.SetActive(true);
     }
 }
