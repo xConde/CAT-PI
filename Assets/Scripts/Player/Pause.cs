@@ -21,15 +21,16 @@ public class Pause : MonoBehaviour
 
     public void Load()
     {
-        StartCoroutine(LoadMenu());
+        pausePanel.SetActive(false);
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("Menu");
     }
 
-    IEnumerator LoadMenu()
+    public void Restart()
     {
-        //Cursor.lockState = CursorLockMode.;
         pausePanel.SetActive(false);
-        SceneManager.LoadScene("Menu");
-        yield return null;
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("MainGame");
     }
 
     public void Resume()

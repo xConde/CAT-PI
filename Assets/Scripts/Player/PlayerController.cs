@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public bool isHoldingObject { get; set; }
     public bool countingTimer { get; set; }
 
-    private float timer = 600;
+    private float timer = 599;
     private Animator animator;
     private float xRot;
     private GameObject referenceObject;
@@ -27,17 +27,14 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        timer = 600;
+        timer = 599;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         animator = GetComponentInChildren<Animator>();
         StartCoroutine(Fade(0));
+        StartCoroutine(LogText("Find all the evidence.", 4, 3));
+        countingTimer = true;
 
-        if (!countingTimer)
-        {
-            StartCoroutine(LogText("Find all the evidence.", 4, 3));
-            countingTimer = true;
-        }      
     }
 
     private void Update()

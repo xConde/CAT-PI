@@ -109,6 +109,7 @@
     <Compile Include="Assets\Scripts\Menu\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Scripts\Menu\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\Player\ComponentReference.cs" />
+    <Compile Include="Assets\Scripts\Player\Pause.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\State\DoorState.cs" />
     <Compile Include="Assets\Scripts\State\GateState.cs" />
