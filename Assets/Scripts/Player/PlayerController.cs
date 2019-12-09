@@ -162,6 +162,7 @@ public class PlayerController : MonoBehaviour
                 endingText.text = "You found all the evidence!";
                 StartCoroutine(Fade(1));
             }
+            InteractAudioSFX.playSFX();
         }
         if (hit.collider.CompareTag("Untagged"))
         {

@@ -62,6 +62,7 @@ public class DoorState : MonoBehaviour
             {
                 if (doorText.enabled == true && Input.GetKeyDown(KeyCode.R))
                 {
+                    DoorOpenSFX.playSFX();
                     doorText.text = "";
                     hingeState = (hingeState == HingeState.closed) ? HingeState.opening : HingeState.closing;
                     timeStartedRotation = Time.time;
