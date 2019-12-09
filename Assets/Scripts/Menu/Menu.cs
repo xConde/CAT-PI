@@ -12,6 +12,7 @@ public class Menu : MonoBehaviour {
 
     public void Load()
     {
+        MenuSelectSFX.playSFX();
         StartCoroutine(LoadScene());
     }
 
@@ -28,6 +29,7 @@ public class Menu : MonoBehaviour {
 
     public void Exit()
     {
+        MenuSelectSFX.playSFX();
         //only for when running in editor
         UnityEditor.EditorApplication.isPlaying = false;
         
@@ -36,12 +38,14 @@ public class Menu : MonoBehaviour {
 
     public void Help()
     {
+        MenuSelectSFX.playSFX();
         menuPanel.SetActive(false);
         helpPanel.SetActive(true);
     }
 
     public void Back()
     {
+        MenuSelectSFX.playSFX();
         helpPanel.SetActive(false);
         menuPanel.SetActive(true);
     }
