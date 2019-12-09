@@ -79,6 +79,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                InteractAudioSFX.playSFX();
                 DropObject();
             }
             return;
@@ -89,6 +90,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                InteractAudioSFX.playSFX();
                 OnClick(hit);
             }
             else
@@ -134,6 +136,7 @@ public class PlayerController : MonoBehaviour
             animator.ResetTrigger("Grab");
             if (Input.GetMouseButtonDown(0))
             {
+                InteractAudioSFX.playSFX();
                 animator.SetTrigger("Grab");
             }
         }
